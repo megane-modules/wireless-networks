@@ -1,0 +1,10 @@
+dependencies {
+    modImplementation meganeModule("api:7.0.0")
+    modRuntimeOnly meganeModule("runtime:7.0.0")
+    modRuntimeOnly meganeModule("tech-reborn:7.0.0")
+
+    modImplementation "curse.maven:wireless-networks-461316:3581836"
+
+    modImplementation "teamreborn:energy:2.0.0-beta1"
+    modImplementation "io.github.cottonmc:LibGui:5.0.0+1.18"
+}
