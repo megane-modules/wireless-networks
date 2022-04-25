@@ -5,6 +5,7 @@ import lol.bai.megane.api.registry.CommonRegistrar;
 import lol.bai.megane.module.wirelessnetworks.provider.NetworkNodeEnergyProvider;
 import me.steven.wirelessnetworks.blockentity.NetworkNodeBlockEntity;
 
+@SuppressWarnings("unused")
 public class MeganeWirelessNetworks implements MeganeModule {
 
     @Override

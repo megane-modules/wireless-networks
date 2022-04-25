@@ -12,10 +12,8 @@ public class NetworkNodeEnergyProvider extends EnergyProvider<NetworkNodeBlockEn
     private Network network;
 
     @Override
-    public void setContext(World world, BlockPos pos, PlayerEntity player, NetworkNodeBlockEntity networkNodeBlockEntity) {
-        super.setContext(world, pos, player, networkNodeBlockEntity);
-
-        this.network = networkNodeBlockEntity.getNetwork().orElse(null);
+    protected void init() {
+        this.network = getObject().getNetwork().orElse(null);
     }
 
     @Override

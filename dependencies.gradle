@@ -1,10 +1,11 @@
 dependencies {
-    modImplementation meganeModule("api:7.0.0")
-    modRuntimeOnly meganeModule("runtime:7.0.0")
-    modRuntimeOnly meganeModule("tech-reborn:7.0.0")
+    modImplementation meganeModule("api:7.1.0")
+    modRuntimeOnly meganeModule("runtime:7.2.0")
+    modRuntimeOnly meganeModule("tech-reborn:7.1.0")
 
-    modImplementation "curse.maven:wireless-networks-461316:3581836"
+    modImplementation "curse.maven:wireless-networks-461316:3759595"
 
-    modImplementation "teamreborn:energy:2.0.0-beta1"
-    modImplementation "io.github.cottonmc:LibGui:5.0.0+1.18"
+    modImplementation "teamreborn:energy:2.2.0"
+    modImplementation "io.github.cottonmc:LibGui:5.3.2+1.18.2"
+    modImplementation "net.fabricmc.fabric-api:fabric-api:0.50.0+1.18.2"
 }
